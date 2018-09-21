@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC  -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -O2 -g -DNDEBUG -DDBUG_OFF  -shared  -o dialog.so CMakeFiles/dialog.dir/dialog.c.o CMakeFiles/dialog.dir/__/__/libmariadb/get_password.c.o 

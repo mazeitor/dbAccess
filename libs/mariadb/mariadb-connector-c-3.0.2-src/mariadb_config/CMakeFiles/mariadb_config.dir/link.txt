@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -O2 -g -DNDEBUG -DDBUG_OFF   CMakeFiles/mariadb_config.dir/mariadb_config.c.o  -o mariadb_config -rdynamic 

@@ -1,0 +1,3 @@
+/home/clme1717/Git/rdfox/modules/db_api/build/CMakeFiles/edit_cache.dir
+/home/clme1717/Git/rdfox/modules/db_api/build/CMakeFiles/rebuild_cache.dir
+/home/clme1717/Git/rdfox/modules/db_api/build/CMakeFiles/hello.dir

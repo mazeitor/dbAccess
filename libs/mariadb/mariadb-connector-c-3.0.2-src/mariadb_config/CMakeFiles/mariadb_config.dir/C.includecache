@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/clme1717/Git/dbAccess/libs/mariadb/mariadb-connector-c-3.0.2-src/mariadb_config/mariadb_config.c
+getopt.h
+-
+stdio.h
+-
+stdlib.h
+-
+mariadb_version.h
+-
+
+include/mariadb_version.h
+custom_conf.h
+-
+

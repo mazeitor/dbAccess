@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wunused -Wno-uninitialized -Wall -Wextra -Wformat-security -Wno-init-self -Wwrite-strings -Wshift-count-overflow -Wdeclaration-after-statement -O2 -g -DNDEBUG -DDBUG_OFF   CMakeFiles/misc.dir/misc.c.o  -o misc -rdynamic ../mytap/libcctap.a libma_getopt.a ../../libmariadb/libmariadbclient.a -lpthread -ldl -lm -lssl -lcrypto 

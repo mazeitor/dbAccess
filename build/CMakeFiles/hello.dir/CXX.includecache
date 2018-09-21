@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/clme1717/Git/rdfox/modules/db_api/src/hello.cpp
+iostream
+-
+libpq-fe.h
+-
+
+/opt/PostgreSQL/9.6/include/libpq-fe.h
+stdio.h
+-
+postgres_ext.h
+/opt/PostgreSQL/9.6/include/postgres_ext.h
+
+/opt/PostgreSQL/9.6/include/pg_config_ext.h
+
+/opt/PostgreSQL/9.6/include/postgres_ext.h
+pg_config_ext.h
+/opt/PostgreSQL/9.6/include/pg_config_ext.h
+
