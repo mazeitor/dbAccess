@@ -24,14 +24,14 @@ main: $(SRC_DIR)/main.cpp postgres
 	g++ -std=c++14 -I${POSTGRES_PATH}/include -I$(INC_DIR) $(OBJ_DIR)/*.o $(SRC_DIR)/main.cpp -o $(OBJ_DIR)/main -lpq 
 
 #compile db_api testing
-ew3: $(SRC_DIR)/ew3.cpp postgres
-	g++ -std=c++14 -I${POSTGRES_PATH}/include -I$(INC_DIR) $(OBJ_DIR)/*.o $(SRC_DIR)/ew3.cpp -o $(OBJ_DIR)/ew3 -lpq 
-samples: $(SRC_DIR)/samples.cpp postgres
-	g++ -std=c++14 -I${POSTGRES_PATH}/include -I$(INC_DIR) $(OBJ_DIR)/*.o $(SRC_DIR)/samples.cpp -o $(OBJ_DIR)/samples -lpq 
+store_dm: $(SRC_DIR)/store_dm.cpp postgres
+	g++ -std=c++14 -I${POSTGRES_PATH}/include -I$(INC_DIR) $(OBJ_DIR)/*.o $(SRC_DIR)/store_dm.cpp -o $(OBJ_DIR)/store_dm -lpq 
+store_samples: $(SRC_DIR)/store_samples.cpp postgres
+	g++ -std=c++14 -I${POSTGRES_PATH}/include -I$(INC_DIR) $(OBJ_DIR)/*.o $(SRC_DIR)/store_samples.cpp -o $(OBJ_DIR)/store_samples -lpq 
 
 #clean binaries	
 clean: 
 	rm -f $(OBJ_DIR)/*.o $(OBJ_DIR)/main $(OBJ_DIR)main_postgres
 
 #compile all project
-all: clean main ew3 samples
+all: clean main store_dm store_samples

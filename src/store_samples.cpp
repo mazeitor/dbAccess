@@ -48,7 +48,7 @@ int main_postgres(){
 	cout << "\t\t\t\t status:" << status->status << endl;
 		
 	//create table
-	cout << "create table 'test'";
+	cout << "create table 'samples'";
 	string create = "CREATE TABLE IF NOT EXISTS samples (id varchar, sample varchar);";
 	db->exec(create);
 	status = db->status(); 
@@ -68,7 +68,7 @@ int main_postgres(){
 
 
 	//insert values to table	
-	cout << "inserting rows to table 'test'" << endl;
+	cout << "inserting rows to table 'samples'" << endl;
 	start_wall_clock = std::chrono::steady_clock::now();
 	int N = 1000;
 	for(int i=0; i<N; i++){
@@ -130,7 +130,7 @@ int main_postgres(){
 	//deallocate memory
 	//delete db;
 
-	cout << "Finish tests" << endl;
+	cout << "Finish samples tests" << endl;
 
     return 0;
 }
