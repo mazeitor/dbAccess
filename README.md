@@ -162,6 +162,9 @@ nmake /f win32.mak CPU=AMD64
 ```
 we can find the library under interfaces\libpq\Release\
 
+#### MariaDB ####
+Follow the postgresql instructions. 
+
 ###  Testing the environment ### 
 We can try postgres compiling and running a testlibpq.c file. This file is provided by postgres for that purpose. You can find it under test folder.
 
